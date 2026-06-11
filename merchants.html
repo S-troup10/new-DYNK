@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DYNK — For Merchants</title>
+<link rel="icon" type="image/png" href="assets/dynk-gradient-mark.png">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="hero.css">
+<link rel="stylesheet" href="sections.css">
+<link rel="stylesheet" href="scroll-anim.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/dynk-logo.png" alt="DYNK">
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="#">Merchants</a>
+      <a href="Founders.html">Founders</a>
+    </div>
+    <a href="#merchant-cta" class="nav-platform-btn">Get Early Access</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg-light"></div>
+  <div class="hero-inner">
+    <div class="hero-text hero-entrance hero-entrance--text">
+      <h1 class="hero-headline">PAY 1¢. NOT 3%.</h1>
+      <div class="hero-brand">DYNK for Merchants</div>
+      <p class="hero-subtitle">Accept payments for a cent,<br>and reach the customers next door.</p>
+      <div class="hero-buttons">
+        <a href="#merchant-cta" class="hero-btn-primary"><span>Get Early Access</span></a>
+        <a href="#fees" class="hero-btn-secondary"><span>See How</span></a>
+      </div>
+    </div>
+    <div class="hero-visual hero-entrance hero-entrance--visual" id="heroVisual">
+      <img src="assets/dashboard.png" alt="DYNK Merchant Dashboard" loading="eager">
+    </div>
+  </div>
+  <div class="hero-featured hero-entrance hero-entrance--featured">
+    <span>built on</span>
+    <div class="featured-logos">
+      <span class="featured-logo solana-logo">
+        <svg width="28" height="22" viewBox="0 0 397 312" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="sol-a" x1="0%" y1="100%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#9945FF"/>
+              <stop offset="50%" stop-color="#14F195"/>
+              <stop offset="100%" stop-color="#14F195"/>
+            </linearGradient>
+          </defs>
+          <path d="M64.6 237.9a14 14 0 0 1 9.9-4.1h309.3c6.2 0 9.4 7.5 5 12L338 291.7a14 14 0 0 1-9.9 4.1H18.8c-6.2 0-9.4-7.5-5-12l50.8-45.9ZM64.6 20.3A14.4 14.4 0 0 1 74.5 16h309.3c6.2 0 9.4 7.5 5 12L338 74a14 14 0 0 1-9.9 4.1H18.8c-6.2 0-9.4-7.5-5-12L64.6 20.3ZM338 156.5a14 14 0 0 0-9.9-4.1H18.8c-6.2 0-9.4 7.5-5 12l50.8 45.9a14 14 0 0 0 9.9 4.1h309.3c6.2 0 9.4-7.5 5-12L338 156.5Z" fill="url(#sol-a)"/>
+        </svg>
+        <span style="font-family: var(--font-display); font-weight: 700; font-size: 20px; letter-spacing: 0.04em;">Solana</span>
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- FEES -->
+<section class="sec-wallet-dark" id="fees">
+  <div class="sec-inner">
+    <div class="wdark-grid">
+      <div class="wdark-left">
+        <div class="sec-label"><span class="sec-label-num">01</span><span class="sec-label-line sec-label-line--light"></span>Lower Fees</div>
+        <h2 class="sec-title sec-title--light">Keep more of<br>every sale.</h2>
+        <p class="sec-desc sec-desc--light">Card processors take 2–3% of everything you earn. DYNK settles on-chain for a flat 1¢ — straight to your own non-custodial wallet. You always hold your funds.</p>
+        <div class="wdark-metrics">
+          <div class="wdark-metric">
+            <span class="wdark-metric-val">1¢</span>
+            <span class="wdark-metric-label">Per transaction</span>
+          </div>
+          <div class="wdark-metric-div"></div>
+          <div class="wdark-metric">
+            <span class="wdark-metric-val">400ms</span>
+            <span class="wdark-metric-label">Settlement</span>
+          </div>
+          <div class="wdark-metric-div"></div>
+          <div class="wdark-metric">
+            <span class="wdark-metric-val">0%</span>
+            <span class="wdark-metric-label">Held by DYNK</span>
+          </div>
+        </div>
+        <div class="wdark-cards wdark-cards--grid">
+          <div class="w-card w-card--dark">
+            <div class="w-card-icon w-card-icon--dark"><i class="fa-solid fa-percent"></i></div>
+            <h3>Flat 1¢ Fee</h3>
+            <p>No percentage cut. A coffee or a car — you pay one cent to settle.</p>
+          </div>
+          <div class="w-card w-card--dark">
+            <div class="w-card-icon w-card-icon--dark"><i class="fa-solid fa-vault"></i></div>
+            <h3>Non-Custodial</h3>
+            <p>Funds settle on-chain to your own wallet. DYNK never holds or controls your money.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wdark-right">
+        <div class="wdark-phones">
+          <div class="wdark-phone-main phone-mockup phone-mockup--dark">
+            <img src="assets/dashboard.png" alt="DYNK Merchant Dashboard">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REACH THE RIGHT CUSTOMERS -->
+<section class="sec-data" id="reach">
+  <div class="sec-inner">
+    <div class="data-grid">
+      <div class="data-left">
+        <div class="sec-label"><span class="sec-label-num">02</span><span class="sec-label-line"></span>Reach</div>
+        <h2 class="sec-title sec-title--light">Reach the people<br>next door.</h2>
+        <p class="sec-desc sec-desc--light">Put your offer in front of the right customers nearby — by signal, not spam. You see the audience size, never anyone's identity. Customers opt in; their on-device agent, Enki, decides.</p>
+      </div>
+      <div class="data-right">
+        <div class="d-item">
+          <div class="d-item-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <div class="d-item-body"><h4>Signal targeting</h4><p>“Within 5 km” + “free this evening” fills empty tables tonight. Pick the signals — DYNK matches blind, on-device.</p></div>
+        </div>
+        <div class="d-item">
+          <div class="d-item-icon"><i class="fa-solid fa-user-shield"></i></div>
+          <div class="d-item-body"><h4>Aggregate only</h4><p>You only ever see how many people match (“~2,400”). No personal data is shared with you — ever.</p></div>
+        </div>
+        <div class="d-item">
+          <div class="d-item-icon"><i class="fa-solid fa-film"></i></div>
+          <div class="d-item-body"><h4>Instant video ads</h4><p>Enter your offer and DYNK builds a 5–15s video ad from your venue’s own imagery. Upload yours or generate one.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="data-flow-cards">
+      <div class="data-flow-card" data-anim="fade-up" data-delay="1">
+        <span class="data-flow-num">1</span>
+        <div class="d-item-icon"><i class="fa-solid fa-tag"></i></div>
+        <h4>Create your offer</h4>
+        <p>Free beer, 2-for-1, happy hour — set it in seconds.</p>
+      </div>
+      <div class="data-flow-card" data-anim="fade-up" data-delay="2">
+        <span class="data-flow-num">2</span>
+        <div class="d-item-icon"><i class="fa-solid fa-location-crosshairs"></i></div>
+        <h4>Pick the audience</h4>
+        <p>By area, timing, behaviour. See the size, not the people.</p>
+      </div>
+      <div class="data-flow-card" data-anim="fade-up" data-delay="3">
+        <span class="data-flow-num">3</span>
+        <div class="d-item-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+        <h4>Generate the ad</h4>
+        <p>A branded 5–15s video, made from your offer.</p>
+      </div>
+      <div class="data-flow-card" data-anim="fade-up" data-delay="4">
+        <span class="data-flow-num">4</span>
+        <div class="d-item-icon"><i class="fa-solid fa-people-arrows"></i></div>
+        <h4>They come in</h4>
+        <p>Customers who opt in get your offer. You fund it with DYNK.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS: BUCKETS + POS -->
+<section class="sec-wallet-light" id="tools">
+  <div class="sec-inner">
+    <div class="sec-label"><span class="sec-label-num">03</span><span class="sec-label-line"></span>Run Your Business</div>
+    <h2 class="sec-title">Tools that do<br>the admin for you.</h2>
+    <p class="sec-desc" style="max-width:560px;">From the tap to the books — DYNK handles the boring parts so you can run the floor.</p>
+    <div class="wlight-cards">
+      <div class="w-card wlight-card">
+        <div class="w-card-icon"><i class="fa-solid fa-layer-group"></i></div>
+        <h3>Auto-split buckets</h3>
+        <p>Incoming payments split automatically into GST, wages, rent and marketing — so the money’s sorted before you think about it. Move funds to your bank anytime.</p>
+      </div>
+      <div class="w-card wlight-card">
+        <div class="w-card-icon"><i class="fa-solid fa-tablet-screen-button"></i></div>
+        <h3>Tap-to-pay hardware</h3>
+        <p>A simple tablet or dongle at the counter — accept crypto and DYNK payments at your point of sale, no terminal contracts.</p>
+      </div>
+      <div class="w-card wlight-card">
+        <div class="w-card-icon"><i class="fa-solid fa-chart-line"></i></div>
+        <h3>One dashboard</h3>
+        <p>Sales, settlements, campaigns and customers — in one place. Built for the floor, not for accountants.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY IT WORKS -->
+<section class="sec-foundation" id="why">
+  <div class="sec-inner">
+    <div class="sec-label"><span class="sec-label-num">04</span><span class="sec-label-line"></span>Why It Works</div>
+    <h2 class="sec-title">Your customers<br>are already here.</h2>
+    <p class="sec-desc">Every DYNK wallet user is a potential customer with a reason to walk in. You reach them on their terms, they get a deal, and you keep 99%+ of the sale.</p>
+    <div class="f-stats">
+      <div class="f-stat"><div class="f-stat-val">1¢</div><div class="f-stat-label">vs 2–3% card fees</div></div>
+      <div class="f-divider"></div>
+      <div class="f-stat"><div class="f-stat-val">0%</div><div class="f-stat-label">Held by DYNK</div></div>
+      <div class="f-divider"></div>
+      <div class="f-stat"><div class="f-stat-val">5–15s</div><div class="f-stat-label">AI video ads</div></div>
+    </div>
+    <div class="f-pills">
+      <div class="f-pill"><i class="fa-solid fa-lock"></i>Non-custodial — you hold your funds</div>
+      <div class="f-pill"><i class="fa-solid fa-user-shield"></i>Customer privacy by design</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="sec-waitlist" id="merchant-cta">
+  <div class="waitlist-bg"></div>
+  <div class="waitlist-inner">
+    <p class="waitlist-label">For Merchants</p>
+    <h2 class="waitlist-headline">Stop paying 3%.<br>Start filling tables.</h2>
+    <p class="waitlist-sub">Join the merchant early-access list. We’ll set you up with the dashboard and hardware when we launch in your area.</p>
+    <form class="waitlist-form" id="merchantForm" onsubmit="return handleMerchantSubmit(event)">
+      <div class="waitlist-input-wrap">
+        <input type="email" class="waitlist-input" id="merchantEmail" placeholder="Your business email" required>
+        <button type="submit" class="waitlist-btn"><span>Get Early Access</span><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </form>
+    <div class="waitlist-success" id="merchantSuccess" style="display:none;">
+      <div class="waitlist-success-icon">✓</div>
+      <p class="waitlist-success-msg">You're on the list. We'll be in touch.</p>
+    </div>
+    <p class="waitlist-note">No spam, ever. Unsubscribe anytime.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-brand-logo"><img src="assets/dynk-logo.png" alt="DYNK"></a>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col"><h5>Product</h5><a href="index.html#wallet">Digital Wallet</a><a href="index.html#data">Data Sovereignty</a><a href="merchants.html">Merchants</a><a href="index.html#foundation">Governance</a><a href="Founders.html">Founders</a></div>
+        <div class="footer-col"><h5>Company</h5><a href="#">About</a><a href="mailto:contact@dynk.io">contact@dynk.io</a></div>
+        <div class="footer-col"><h5>Community</h5><a href="#">Twitter / X</a><a href="#">Telegram</a></div>
+        <div class="footer-col footer-col-app"><h5>Get the App</h5><div class="footer-app-badges"><a href="#" class="footer-badge"><img src="assets/apple.png" alt="Download on the App Store" class="footer-badge-img"></a><a href="#" class="footer-badge"><img src="assets/android.png" alt="Get it on Google Play" class="footer-badge-img"></a></div></div>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; 2026 DYNK. All rights reserved.</p>
+      <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="hero.js"></script>
+<script src="sections.js"></script>
+<script src="scroll-anim.js"></script>
+<script>
+async function handleMerchantSubmit(e) {
+  e.preventDefault();
+  var email = document.getElementById('merchantEmail').value;
+  if (!email) return;
+  var btn = document.querySelector('.waitlist-btn');
+  btn.disabled = true;
+  try {
+    var res = await fetch('/api/waitlist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, type: 'merchant' }),
+    });
+    if (!res.ok) throw new Error();
+    document.getElementById('merchantForm').style.display = 'none';
+    document.getElementById('merchantSuccess').style.display = 'flex';
+  } catch {
+    alert('Something went wrong. Please try again.');
+    btn.disabled = false;
+  }
+  return false;
+}
+</script>
+</body>
+</html>
