@@ -1217,7 +1217,7 @@
 .footer-brand-logo {
   display: flex; align-items: center; gap: 10px; text-decoration: none;
 }
-.footer-brand-logo img { width: 100px; height: auto; object-fit: contain; }
+.footer-brand-logo img { width: 150px; height: auto; object-fit: contain; }
 .footer-brand-logo span {
   font-family: var(--font-heading); font-weight: 700; font-size: 18px;
   color: var(--text-1); letter-spacing: 0.06em;
@@ -1314,6 +1314,13 @@
 /* ── MOBILE WALLET PICKER (shown on mobile instead of tiny 2100-cell grid) ── */
 .board-mobile-picker {
   display: none;
+}
+
+.disabled-image {
+  filter: grayscale(100%);   /* Removes color */
+  opacity: 0.5;              /* Fades the image by 50% */
+  pointer-events: none;      /* Prevents clicks and hover states */
+  cursor: not-allowed;       /* Shows a disabled cursor if interacted with */
 }
 
 /* ── RESPONSIVE ── */
